@@ -18,7 +18,9 @@
 }
 
 textarea{
+
   width: 1277px;
+
 }
 
 .keyboard{
@@ -46,6 +48,7 @@ textarea{
   justify-content: center;
   align-items: center;
 }
+
 
 span{
   display: inline-block;
@@ -79,9 +82,11 @@ span{
 
 .caseUp, .caps{
   font-size: 24px;
+
 }
 
 .active{
   color: aqua;
   background: white;
+
 }

@@ -85,7 +85,9 @@ function keyboardState(lang, state){
       a.classList.add('hidden')
     }
     if(a.classList.contains(state)){
+      
       a.classList.remove('hidden')
+
     }
   })
 }
@@ -97,6 +99,7 @@ function createKeyboard(){
   keyboardState('ru', 'caseDown')
 }
 createKeyboard()
+
 
 document.addEventListener('keydown', function(e){
   console.log(e.key)
@@ -120,3 +123,4 @@ document.querySelectorAll('.state').forEach(item =>{
     textarea.textContent += item.textContent
   })
 })
+
