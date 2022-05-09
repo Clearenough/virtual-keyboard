@@ -12,7 +12,8 @@ export const keyboard = {
         caseUp: `~`,
         caps: '`',
         shiftCaps: `~`
-      }
+      },
+      data: '`' 
     },
 
     digit1 : {
@@ -27,7 +28,8 @@ export const keyboard = {
         caseUp: `!`,
         caps: '1',
         shiftCaps: `!`
-      }
+      },
+      data: '1' 
     },
 
     digit2 : {
@@ -42,7 +44,8 @@ export const keyboard = {
         caseUp: `@`,
         caps: '2',
         shiftCaps: `@`
-      }
+      },
+      data: '2' 
     },
 
     digit3 : {
@@ -57,7 +60,8 @@ export const keyboard = {
         caseUp: `#`,
         caps: '3',
         shiftCaps: `#`
-      }
+      },
+      data: '3' 
     },
 
     digit4 : {
@@ -72,7 +76,8 @@ export const keyboard = {
         caseUp: `$`,
         caps: '4',
         shiftCaps: `$`
-      }
+      },
+      data: '4' 
     },
 
     digit5 : {
@@ -87,7 +92,8 @@ export const keyboard = {
         caseUp: `%`,
         caps: '5',
         shiftCaps: `%`
-      }
+      },
+      data: '5' 
     },
 
     digit6 : {
@@ -102,7 +108,8 @@ export const keyboard = {
         caseUp: `^`,
         caps: '6',
         shiftCaps: `^`
-      }
+      },
+      data: '6' 
     },
 
     digit7 : {
@@ -117,7 +124,8 @@ export const keyboard = {
         caseUp: `&`,
         caps: '7',
         shiftCaps: `&`
-      }
+      },
+      data: '7' 
     },
 
     digit8 : {
@@ -132,7 +140,8 @@ export const keyboard = {
         caseUp: `*`,
         caps: '8',
         shiftCaps: `*`
-      }
+      },
+      data: '8' 
     },
 
     digit9 : {
@@ -147,7 +156,8 @@ export const keyboard = {
         caseUp: `(`,
         caps: '9',
         shiftCaps: `(`
-      }
+      },
+      data: '9' 
     },
 
     digit0 : {
@@ -162,7 +172,8 @@ export const keyboard = {
         caseUp: `)`,
         caps: '0',
         shiftCaps: `)`
-      }
+      },
+      data: '0' 
     },
 
     minus : {
@@ -177,7 +188,8 @@ export const keyboard = {
         caseUp: `_`,
         caps: '-',
         shiftCaps: `_`
-      }
+      },
+      data: '-' 
     },
 
     equal : {
@@ -192,7 +204,8 @@ export const keyboard = {
         caseUp: `+`,
         caps: '=',
         shiftCaps: `+`
-      }
+      },
+      data: '=' 
     },
 
     backspace : {
@@ -207,7 +220,8 @@ export const keyboard = {
         caseUp: `Backspace`,
         caps: 'Backspace',
         shiftCaps: `Backspace`
-      }
+      },
+      data: 'Backspace' 
     },
   },
 
@@ -224,7 +238,8 @@ export const keyboard = {
         caseUp: `Tab`,
         caps: 'Tab',
         shiftCaps: `Tab`
-      }
+      },
+      data: 'Tab' 
     },
 
     KeyQ : {
@@ -239,7 +254,8 @@ export const keyboard = {
         caseUp: `Q`,
         caps: 'Q',
         shiftCaps: `q`
-      }
+      },
+      data: 'q' 
     },
 
     KeyW : {
@@ -254,7 +270,8 @@ export const keyboard = {
         caseUp: `W`,
         caps: 'W',
         shiftCaps: `w`
-      }
+      },
+      data: 'w' 
     },
 
     KeyE : {
@@ -269,7 +286,8 @@ export const keyboard = {
         caseUp: `E`,
         caps: `E`,
         shiftCaps: `e`
-      }
+      },
+      data: 'e' 
     },
 
     KeyR : {
@@ -284,7 +302,8 @@ export const keyboard = {
         caseUp: `R`,
         caps: 'R',
         shiftCaps: `r`
-      }
+      },
+      data: 'r' 
     },
 
     KeyT : {
@@ -299,7 +318,8 @@ export const keyboard = {
         caseUp: `T`,
         caps: 'T',
         shiftCaps: `t`
-      }
+      },
+      data: 't' 
     },
 
     KeyY : {
@@ -314,7 +334,8 @@ export const keyboard = {
         caseUp: `Y`,
         caps: 'Y',
         shiftCaps: `y`
-      }
+      },
+      data: 'y' 
     },
 
     KeyU : {
@@ -329,7 +350,8 @@ export const keyboard = {
         caseUp: `U`,
         caps: 'U',
         shiftCaps: `u`
-      }
+      },
+      data: 'u' 
     },
 
     KeyI : {
@@ -344,7 +366,8 @@ export const keyboard = {
         caseUp: `O`,
         caps: 'O',
         shiftCaps: `o`
-      }
+      },
+      data: 'i' 
     },
 
     KeyO : {
@@ -359,7 +382,8 @@ export const keyboard = {
         caseUp: `O`,
         caps: 'O',
         shiftCaps: `o`
-      }
+      },
+      data: 'o' 
     },
 
     KeyP : {
@@ -374,7 +398,8 @@ export const keyboard = {
         caseUp: `P`,
         caps: 'P',
         shiftCaps: `p`
-      }
+      },
+      data: 'p' 
     },
 
     bracketLeft : {
@@ -389,7 +414,8 @@ export const keyboard = {
         caseUp: `{`,
         caps: '[',
         shiftCaps: `{`
-      }
+      },
+      data: '[' 
     },
 
     bracketRight : {
@@ -404,7 +430,8 @@ export const keyboard = {
         caseUp: `}`,
         caps: ']',
         shiftCaps: `}`
-      }
+      },
+      data: ']' 
     },
 
     delete : {
@@ -419,7 +446,8 @@ export const keyboard = {
         caseUp: `Del`,
         caps: 'Del',
         shiftCaps: `Del`
-      }
+      },
+      data: 'Delete' 
     },
   },
 
@@ -436,7 +464,8 @@ export const keyboard = {
         caseUp: `CapsLock`,
         caps: 'CapsLock',
         shiftCaps: `CapsLock`
-      }
+      },
+      data: 'CapsLock' 
     },
 
     KeyA : {
@@ -451,7 +480,8 @@ export const keyboard = {
         caseUp: `A`,
         caps: 'A',
         shiftCaps: `a`
-      }
+      },
+      data: 'a' 
     },
 
     KeyS : {
@@ -466,7 +496,8 @@ export const keyboard = {
         caseUp: `S`,
         caps: 'S',
         shiftCaps: `s`
-      }
+      },
+      data: 's' 
     },
 
     KeyD : {
@@ -481,7 +512,8 @@ export const keyboard = {
         caseUp: `D`,
         caps: `D`,
         shiftCaps: `d`
-      }
+      },
+      data: 'd' 
     },
 
     KeyF : {
@@ -496,7 +528,8 @@ export const keyboard = {
         caseUp: `F`,
         caps: 'F',
         shiftCaps: `f`
-      }
+      },
+      data: 'f' 
     },
 
     KeyG : {
@@ -511,7 +544,8 @@ export const keyboard = {
         caseUp: `G`,
         caps: `G`,
         shiftCaps: `g`
-      }
+      },
+      data: 'g' 
     },
 
     KeyH : {
@@ -526,7 +560,8 @@ export const keyboard = {
         caseUp: `H`,
         caps: 'H',
         shiftCaps: `h`
-      }
+      },
+      data: 'h' 
     },
 
     KeyJ : {
@@ -541,7 +576,8 @@ export const keyboard = {
         caseUp: `J`,
         caps: 'J',
         shiftCaps: `j`
-      }
+      },
+      data: 'j' 
     },
 
     KeyK : {
@@ -556,7 +592,8 @@ export const keyboard = {
         caseUp: `K`,
         caps: `K`,
         shiftCaps: `k`
-      }
+      },
+      data: 'k' 
     },
 
     KeyL : {
@@ -571,7 +608,8 @@ export const keyboard = {
         caseUp: `L`,
         caps: 'L',
         shiftCaps: `l`
-      }
+      },
+      data: 'l' 
     },
 
     semicolon : {
@@ -586,7 +624,8 @@ export const keyboard = {
         caseUp: `:`,
         caps: ';',
         shiftCaps: `:`
-      }
+      },
+      data: ';' 
     },
 
     quote : {
@@ -601,7 +640,8 @@ export const keyboard = {
         caseUp: '"',
         caps: "'",
         shiftCaps: '"'
-      }
+      },
+      data: "'" 
     },
 
     backslash : {
@@ -616,7 +656,8 @@ export const keyboard = {
         caseUp: `|`,
         caps: `\\`,
         shiftCaps: `|`
-      }
+      },
+      data: '\\' 
     },
 
     enter : {
@@ -631,7 +672,8 @@ export const keyboard = {
         caseUp: `Enter`,
         caps: 'Enter',
         shiftCaps: `Enter`
-      }
+      },
+      data: 'Enter' 
     },
   },
 
@@ -648,7 +690,8 @@ export const keyboard = {
         caseUp: `Shift`,
         caps: 'Shift',
         shiftCaps: `Shift`
-      }
+      },
+      data: 'Shift' 
     },
 
     KeyZ : {
@@ -663,7 +706,8 @@ export const keyboard = {
         caseUp: `Z`,
         caps: 'Z',
         shiftCaps: `z`
-      }
+      },
+      data: 'z' 
     },
 
     KeyX : {
@@ -678,7 +722,8 @@ export const keyboard = {
         caseUp: `X`,
         caps: `X`,
         shiftCaps: `x`
-      }
+      },
+      data: 'x' 
     },
 
     KeyC : {
@@ -693,7 +738,8 @@ export const keyboard = {
         caseUp: `C`,
         caps: `C`,
         shiftCaps: `c`
-      }
+      },
+      data: 'c' 
     },
 
     KeyV : {
@@ -708,7 +754,8 @@ export const keyboard = {
         caseUp: `V`,
         caps: 'V',
         shiftCaps: `v`
-      }
+      },
+      data: 'v' 
     },
 
     KeyB : {
@@ -723,7 +770,8 @@ export const keyboard = {
         caseUp: `B`,
         caps: `B`,
         shiftCaps: `b`
-      }
+      },
+      data: 'b' 
     },
 
     KeyN : {
@@ -738,7 +786,8 @@ export const keyboard = {
         caseUp: `N`,
         caps: 'N',
         shiftCaps: `n`
-      }
+      },
+      data: 'n' 
     },
 
     KeyM : {
@@ -753,7 +802,8 @@ export const keyboard = {
         caseUp: `M`,
         caps: 'M',
         shiftCaps: `m`
-      }
+      },
+      data: 'm' 
     },
 
     comma : {
@@ -768,7 +818,8 @@ export const keyboard = {
         caseUp: `<`,
         caps: `,`,
         shiftCaps: `<`
-      }
+      },
+      data: ',' 
     },
 
     period : {
@@ -783,7 +834,8 @@ export const keyboard = {
         caseUp: `>`,
         caps: '.',
         shiftCaps: `>`
-      }
+      },
+      data: '.' 
     },
 
     slash : {
@@ -798,7 +850,8 @@ export const keyboard = {
         caseUp: `?`,
         caps: '/',
         shiftCaps: `?`
-      }
+      },
+      data: '/' 
     },
 
     shiftRight : {
@@ -813,7 +866,8 @@ export const keyboard = {
         caseUp: 'Shift',
         caps: "Shift",
         shiftCaps: 'Shift'
-      }
+      },
+      data: 'Shift' 
     },
 
     arrowUp : {
@@ -828,7 +882,8 @@ export const keyboard = {
         caseUp: `▲`,
         caps: `▲`,
         shiftCaps: `▲`
-      }
+      },
+      data: 'ArrowUp' 
     },
   },
 
@@ -845,7 +900,8 @@ export const keyboard = {
         caseUp: `Ctrl`,
         caps: 'Ctrl',
         shiftCaps: `Ctrl`
-      }
+      },
+      data: 'Control' 
     },
 
     win : {
@@ -860,7 +916,8 @@ export const keyboard = {
         caseUp: `Win`,
         caps: 'Win',
         shiftCaps: `Win`
-      }
+      },
+      data: 'Meta' 
     },
 
     altLeft : {
@@ -875,22 +932,24 @@ export const keyboard = {
         caseUp: `Alt`,
         caps: `Alt`,
         shiftCaps: `Alt`
-      }
+      },
+      data: 'Alt' 
     },
 
     space : {
       ru:{
-        caseDown : ``,
-        caseUp: ``,
-        caps: ``,
-        shiftCaps: ``
+        caseDown : ` `,
+        caseUp: ` `,
+        caps: ` `,
+        shiftCaps: ` `
       },
       en:{
-        caseDown : ``,
-        caseUp: ``,
-        caps: ``,
-        shiftCaps: ``
-      }
+        caseDown : ` `,
+        caseUp: ` `,
+        caps: ` `,
+        shiftCaps: ` `
+      },
+      data: ' ' 
     },
 
     altRight : {
@@ -905,7 +964,8 @@ export const keyboard = {
         caseUp: `Alt`,
         caps: 'Alt',
         shiftCaps: `Alt`
-      }
+      },
+      data: 'Alt' 
     },
 
     controlRight : {
@@ -920,7 +980,8 @@ export const keyboard = {
         caseUp: `Ctrl`,
         caps: `Ctrl`,
         shiftCaps: `Ctrl`
-      }
+      },
+      data: 'Control' 
     },
 
     arrowLeft : {
@@ -935,7 +996,8 @@ export const keyboard = {
         caseUp: `◄`,
         caps: '◄',
         shiftCaps: `◄`
-      }
+      },
+      data: 'ArrowLeft' 
     },
 
     arrowDown : {
@@ -950,7 +1012,8 @@ export const keyboard = {
         caseUp: `▼`,
         caps: '▼',
         shiftCaps: `▼`
-      }
+      },
+      data: 'ArrowDown' 
     },
 
     arrowRight : {
@@ -965,7 +1028,8 @@ export const keyboard = {
         caseUp: `►`,
         caps: `►`,
         shiftCaps: `►`
-      }
+      },
+      data: 'ArrowRight' 
     },
   }
 }
