@@ -195,7 +195,7 @@ export const keyboard = {
       }
     },
 
-    backspase : {
+    backspace : {
       ru:{
         caseDown : `Backspace`,
         caseUp: `Backspace`,

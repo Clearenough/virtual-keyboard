@@ -1,9 +1,12 @@
 import { keyboard } from "./js/keyboard.js";
-console.log(keyboard[3])
 
 const div = document.createElement('div');
 div.classList.add('wrapper')
 document.querySelector('body').appendChild(div)
+
+const keyboard_wrapper = document.createElement('div')
+keyboard_wrapper.classList.add('keyboard')
+div.append(keyboard_wrapper)
 
 
 function addTextarea(){
@@ -24,7 +27,7 @@ function createButtonsRow(rowNumber){
   }
 
 
-  div.append(buttonsRow)
+  keyboard_wrapper.append(buttonsRow)
 
 }
 
@@ -59,11 +62,29 @@ function createButton(name, rowNumber){
   return button
 }
 
+function keyboardState(lang, state){
+  let span = document.querySelectorAll('span')
+  span.forEach(a => {
+    if(!a.classList.contains(lang)){
+      a.classList.add('hidden')
+    }
+    if(a.classList.contains(state)){
+      a.classList.toggle('hidden')
+    }
+  })
+}
+
 function createKeyboard(){
   addTextarea()
   for(let i = 1; i < 6; i++){
     createButtonsRow(i)
   }
-
+  keyboardState('ru', 'caseDown')
 }
 createKeyboard()
+
+document.addEventListener('keydown', e => {
+  if(e.code === 'CapsLock'){
+    keyboardState('ru', 'caseUp')
+  }
+})

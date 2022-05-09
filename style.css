@@ -10,8 +10,64 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.hidden{
+  display: none;
 }
 
 textarea{
   width: 800px;
+}
+
+.keyboard{
+  background-color: aqua;
+  border: 6px solid pink;
+  border-radius: 40px;
+  margin-top: 20px;
+  padding: 20px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons-row{
+  display: flex;
+  gap: 15px
+}
+
+.keyboard-key{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backspace{
+  width: 140px;
+}
+
+.tab, .delete, .capsLock, .enter{
+  width: 105px;
+}
+
+.shiftRight{
+  order: 1;
+  width: 120px;
+}
+
+.shiftLeft{
+  width: 175px;
+}
+
+.space{
+  width: 515px;
+}
+
+.caseUp, .caps{
+  font-size: 24px;
 }
